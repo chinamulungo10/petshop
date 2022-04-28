@@ -1,0 +1,80 @@
+
+ h1{
+    color: #ff0077;
+    position: fixed;
+    padding: 100%;
+
+}
+     
+      
+.produtos{
+    float: inline-end;
+    width: 10px;
+    height: 10px;
+}
+    .rodape{
+    text-align: center;
+    text-align: block;
+    text-decoration-color: ffffff;
+    background-color: #ffd8ea;
+
+
+}
+.sobrepet{
+    color: #000000;
+    font-size: 16px;
+}
+footer {
+        background-color: #ff006f;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        text-align: center;
+      }
+      .banner{
+        width: 100%;
+   
+    nav{
+        position: left;
+    }
+
+    footer {
+   background-color: #ff0077;
+   color: ffffff;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   text-align: center;
+   
+ }
+ .contacto{
+   text-align: left;
+ }
+ 
+ .horario{
+   text-align: top="50px";
+   text-align: center;
+ }
+ .spana{
+       text-align: center;
+    }
+
+    img{
+        text-decoration: overline;
+        height: 10%;
+        width: 10%;
+        text-align: block;
+
+    }
+    .sobre{
+              background-color: blue;
+              
+    }
+    footer {
+        background-color: #ff006f;
+        color: #ffffff;
+        padding-top: 40px;
+        padding-bottom: 40px; 
+        text-align: center;
+      }
+    
+
+       
