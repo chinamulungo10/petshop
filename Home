@@ -1,88 +1,208 @@
-            <!DOCTYPE html>
-            <html lang="pt-BR">
-            <head>
-            <meta charset="UTF-8">
-            <meta name="description" contant="uma pagina para quem gosta de pudim.">
-            <meta name="keyword" content="html, CSS, Jvascript">
-            <meta name="author" content="John Doe and Chafim">
-            <meta name="viewport" content="width=divice-width, initial-scale=1.0">
-            <meta http-equiv="X-UA-Compatible" content="ie=edge">
-            <title>pet&shop</title>
-            
-            </head> 
-            
-            <body>
-                <header>
-                <h1>Pet&shop</h1>
-                </header>
-                    <nav>
-                <a href="Home">Home</a>
-                <a href="sobre.html">Sobre</a>
-                <a href="produtos.html">Produtos</a>
-                <a href="Serviços.html">Serviços</a>
-                <a href="fale conosco.html">Fale conosnco</a>
-                    </nav>
-                
-                
-                <img class="banner" src="banner.jpg">
-                <h2>Nossos Serviços</h2>
-                <section class="servicos.html">
-                    <h3>Nossos Serviços</h3>
-                
-                    <div>
-                            <h4>Produtos</h4>
-                    <p>Uma variedade de rações, <br/>
-                        petiscos, brinquedos e <br/>
-                        acessórios para atender o  seu<br/> 
-                        amiguinho da melhor forma.</p>
-                    </div>
-                    <div class="info">
-                        <h4>Banho e Tosa</h4> 
-                        <p>deixar seu amiguinho<br/>
-                            com o padrão de beleza que<br/>
-                            ele merece e muito cheiroso.</p>
-                    </div>
-                    <div class="info">
-                        <h4>Centro Médico</h4>
-                        <p>Atendimento veterinário <br/>
-                            especializado para garantir<br/>
-                            a saúde e o bem-estar do seu<br/>
-                            amigo.</p>
-                    </div>
-                    <div class="info"> 
-                        <h4>Creche</h4>
-                        <p>Traga seu pet para interagir<br/> 
-                            com a nossa equipe e <br/>
-                            sociabilizar com outros animais<br/> 
-                            e fique tranquilo(a) para suas<br/>
-                            atividades do dia-a-dia.</p>
-                        </div>
-                </section>
+<!DOCTYPE html>
+<html lang="pt-BR">
 
-                
-                
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" contant="uma pagina para quem gosta de pudim.">
+    <meta name="keyword" content="html, CSS, Jvascript">
+    <meta name="author" content="John Doe and Chafim">
+    <meta name="viewport" content="width=divice-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>pet&shop</title>
+    <link href="estilo/estilo.css" rel="stylesheet">
+    <script src="time" crossorigin="anonymous"></script>
+    
+</head>
 
-                
-                    <footer class="sobre.html">
 
-                        <div class="contacto"> 
-                        <h2>pet&shop</h2>
-                        <br/>
-                            <b>Contato</b>
-        Estrada sem nome, 1234, Sala 0<br/>
-        Bairro - Cidade / UF 12345-678<br/>
-        <div><a href="tel:+9999-9999"> 99999-9999</a></div>
-        <div><a href="mailto:contato@petshop.com.br"> contato@petshop.com.br</a></div>
+<body>
+    <header>
+        <h1 class="ban">
+            <a href="#pet&shop" class="pet">pet&shop</a>
+        </h1>
+        <nav class="home">
+            <a href="Home">Home</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="produtos.html">Produtos</a>
+            <a href="Serviços.html">Serviços</a>
+            <a href="faleconosco.html">Faleconosco</a>
+        </nav>
+    </header>
+
+<section id="banner">
+    <img class="banner" src="banner.jpg">
+</section>
+    <h3 class="servico">Nossos Serviços</h3>
+
+    
+    
+    
+    <section class="servicos">
+      
+        <div class="info">
+            <i class="fa-solid fa-paw"></i>
+            <h4 class="centro">Produtos</h4>
+            <p>Uma variedade de rações, <br />
+                petiscos, brinquedos e <br />
+                acessórios para atender o seu<br />
+                amiguinho da melhor forma.</p>
+        </div>
+
+        <div class="info">
+            <i class="fa-solid fa-shower"></i>
+            <h4 class="centro">Banho e Tosa</h4>
+            <p>deixar seu amiguinho<br />
+                com o padrão de beleza que<br />
+                ele merece e muito cheiroso.</p>
+        </div>
+
+        <div class="info">
+            <i class="fa-solid fa-syringe"></i>
+            <h4 class="centro">Centro Médico</h4>
+            <p>Atendimento veterinário <br />
+                especializado para garantir<br />
+                a saúde e o bem-estar do seu<br />
+                amigo.</p>
+        </div>
+
+        <div class="info">
+            <i class="fa-solid fa-dog"></i>
+            <h4 class="centro">Creche</h4>
+            <p>Traga seu pet para interagir<br />
+                com a nossa equipe e <br />
+                sociabilizar com outros animais<br />
+                e fique tranquilo(a) para suas<br />
+                atividades do dia-a-dia.</p>
+        </div>
+    </section>
+
+    <br />
+    <section>
+        <div class="sobre">
+        <h3>Pet&Shop</h3>
+        <b>Só quem é apaixonado por animais sabe:</b> a relação de amor e cumplicidade que temos com nossos bichinhos de estimação é um vínculo único! 
+        Por essa razão, não medimos esforços para oferecer o que há de melhor para trazer ainda mais alegria e qualidade de vida. Rações, acessórios,
+        medicamentos e brinquedos estão na nossa listinha de prioridades; e tudo isso você encontra aqui na pet&shop online.
+        </div>
+    </section>
+
+
+
+
+    <br/>
+    <br/>
+    <section>
+        <div class="produtos">
+        <h3 class="prod">Produtos em Destaque</h3>
+        <div>
+        <img src="product-1.webp">
+       Royal Canin Maxi<br> Adult 15kg -<br/><br/>
+            R$ 109,90</div>
+            <div>
+        <img src="product-2.webp">
+        Premier Fórmula <br>Raças Medias Adulto - <br/><br/>
+        R$ 79,90</div>
+        <div>
+        <img src="product-3.webp">
+        <p>Pro Plan Raças<br> Pequenas Reduced<br> Calorie - <br/><br/>
+            R$ 79,90</div>
+            <div>
+        <img src="product-4.webp">
+        EasOtic 10ml - Virbac - <br/><br/>position: fixed;
+        <img src="product-5.webp">
+        <p>Moletom Snoopy <br>Sleeping Azul- Zooz - <br/><br/>
+            R$ 39,90</div>
+            <br/>
+            <div>
+        <img src="product-6.webp">
+        <p>N&D Ancestral<br> Selection Cães<br> Adultos Raças<br> Grandes - <br/><br/>
+            R$ 89,90</div>
+            <br/>
+              <div>
+        <img src="product-7.webp">
+        <p>Kit Hills Prescription<br> Diet Lata A/D Urgent<br> Care 156g - <br/><br/>
+            R$ 44,90</div> 
+            <div> 
+        <img src="product-8.webp">
+        Three Cats Original<br> Sênior 10,1kg -<br/><br/>
+            R$ 69,90</div>
+            <div>
+        <img src="product-9.webp">
+        Peitoral Ergocomfort<br> Rosa Ferplast -<br/><br/>
+            R$ 134,90</div>
+            <div>
+        <img src="product-10.webp">
+         Peitoral Para<br> Cachorros Sail Dog 27 - <br/><br/>
+            R$ 129,90</div>
+            <div>
+        <img src="product-11.webp">
+        Guia Para Cachorros<br> Tropical Dog 27 - <br/><br/>
+            R$ 114,90</div>
+            <div>
+        <img src="product-12.webp">
+        Guia Para Cachorros<br> One Dog 27 -<br/><br/>
+            R$ 114,90</div>
+           </div>
+    </section>
+    <br />
+
+
+<section>
+    <footer class="foot">
+
+        <div class="contacto">
+            <br />
+            <h2 class="pet2">pet&Shop</h2>
+            <b>Contato</b>
+            <br/>
+            Estrada sem nome, 1234, Sala 0<br />
+            Bairro - Cidade / UF <br>12345-678<br />
+            <div class="none"><a href="tel:+9999-9999"> 99999-9999</a><br/>
+            <a href="mailto:contato@petshop.com.br"> contato@petshop.com.br</a></div>
+        </div>
         
-        <h4>Horário de funcionamento</h4>
-        <p>De Segunda a Sexta-feira das 9 às 19hs.<br/>
-        Aos Sábados das 9 às 18hs.</p>
-        <br/>
+        <section>
+        <h4 class="siga">Siga-nos</h4>
+        <div id="icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-tiktok"></i>
+            <i class="fa-brands fa-skype"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+        </section>
 
-        <span>Copy: © 2022 pet&shop | Todos os direitos reservados. Desenvolvido por Crie_TI</span> 
-                    </footer>
+
+        <div class="hora">
+            <h4>Horário de funcionamento</h4>
+            <p>De Segunda a Sexta-feira das<time> 09:00</time> às 19:00<br />
+                Aos Sábados das <time>09:00 às 18:00</time><time datetime="2022-04-14 20:00"></p>
                 
+        </div>
+        <br />
 
+        <div class="rop">
+            <span>Copy: © 2022 pet&shop | Todos os direitos reservados. Desenvolvido por <b>Crie_TI</b></span>
+        </div>
+    </footer>
+</section>
 
-        </body>
-        </html>
+<!-- #Tamanhos de fonte:
+Título da seção de serviços: 32px;
+Nomes dos serviços: 18px;
+Descrição dos serviços: 16px;
+Descrição do sobre: 16px;
+Título da seção de produtos: 32px;
+Nome do produto: 14px;
+Valor do produto: 16px;
+Botão ver mais: 16px;
+Títulos do footer: 18px;
+Textos dos footer: 16px;
+Copy: 14px;
+Família da fonte:
+'Open Sans', sans-serif;
+-->
+
+</body>
+
+</html>
